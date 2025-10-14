@@ -1,6 +1,7 @@
 package config;
 
 public class Configuration {
+    //Defines what a config file will look like (what we want) is a port number and a webroot location
     private int port;
 
     public String getWebroot() {

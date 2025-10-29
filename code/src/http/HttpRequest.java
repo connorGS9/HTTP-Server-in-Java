@@ -7,7 +7,7 @@ public class HttpRequest extends HttpMessage{
     private String originalHttpVersion;
     private HttpVersion bestCompatibleVersion;
 
-    HttpRequest() { //Class level contstructor
+    public HttpRequest() { //Class level constructor
 
     }
 
